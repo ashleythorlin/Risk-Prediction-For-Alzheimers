@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Lifetime diagnosis of depression <= 11.07\ngini = 0.983\nsamples = 176\nvalue = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 3\n3, 3, 3]\nclass = Alabama", fillcolor="#ffffff"] ;
+1 [label="Frequent mental distress <= 7.746\ngini = 0.611\nsamples = 6\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 1, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0\n0, 0, 0]\nclass = Guam", fillcolor="#e2f8ce"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.444\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0\n0, 0, 0]\nclass = Virgin Islands", fillcolor="#f29cb6"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0]\nclass = Guam", fillcolor="#89e539"] ;
+1 -> 3 ;
+4 [label="Lifetime diagnosis of depression <= 21.165\ngini = 0.982\nsamples = 170\nvalue = [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3\n3, 3, 3]\nclass = Alabama", fillcolor="#ffffff"] ;
+0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+5 [label="gini = 0.98\nsamples = 133\nvalue = [1, 3, 3, 1, 3, 3, 3, 3, 2, 3, 3, 0, 2, 3\n3, 2, 3, 3, 1, 1, 1, 3, 3, 2, 3, 3, 2, 2\n1, 3, 3, 3, 3, 3, 3, 2, 3, 3, 2, 1, 1, 2\n1, 1, 3, 2, 3, 1, 3, 3, 2, 2, 0, 3, 1, 3\n1, 3, 3]\nclass = Alaska", fillcolor="#ffffff"] ;
+4 -> 5 ;
+6 [label="gini = 0.954\nsamples = 37\nvalue = [2, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0\n0, 1, 0, 0, 2, 2, 2, 0, 0, 1, 0, 0, 1, 1\n2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 2, 2, 1\n2, 2, 0, 1, 0, 2, 0, 0, 1, 1, 0, 0, 2, 0\n2, 0, 0]\nclass = Alabama", fillcolor="#ffffff"] ;
+4 -> 6 ;
+}
