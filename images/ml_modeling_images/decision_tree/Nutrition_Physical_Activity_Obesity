@@ -6,8 +6,8 @@ edge [fontname="helvetica"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="gini = 0.982\nsamples = 171\nvalue = [3, 3, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3\n3, 3, 3]\nclass = Alabama", fillcolor="#ffffff"] ;
 1 -> 2 ;
-3 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0]\nclass = District of Columbia", fillcolor="#c0e539"] ;
+3 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0]\nclass = Arizona", fillcolor="#c0e539"] ;
 1 -> 3 ;
-4 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0]\nclass = Puerto Rico", fillcolor="#ae39e5"] ;
+4 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0]\nclass = Illinois", fillcolor="#ae39e5"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 }
